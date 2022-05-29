@@ -5,7 +5,7 @@ require('dotenv').config();
 async function main() {
 
   //copy-paste your Alchemy HTTP Rinkeby URL
-  const url = "https://eth-rinkeby.alchemyapi.io/v2/UO6mvOL5zd-YdMOVFS0ww0sOvUJM8b3Y";
+  const url = "https://eth-rinkeby.alchemyapi.io/v2/AUdBlSVN1YUBFne5wBNUxQbrJqHQPEv2";
 
   let artifacts = compile("Faucet", "Faucet.sol");
 
